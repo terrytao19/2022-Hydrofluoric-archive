@@ -11,7 +11,7 @@ public class Elbow {
     private double curE2 = 0;
     private double curE3 = 1;
 
-    private final double START_OFFSET = .26;
+    private final double START_OFFSET = .22;
     private final double TOP_OFFSET = .65;
     private final double MID_OFFSET = .8;
     private final double BOTTOM_OFFSET = .9;

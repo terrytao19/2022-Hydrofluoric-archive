@@ -17,8 +17,8 @@ public class Grabber {
     private boolean isGrabCurrentlyExtra = false;
 
     //start positions, duh
-    private final double initPos0 = 1;
-    private final double initPos1 = .032;
+    private final double initPos0 = 1; // .94
+    private final double initPos1 = .032; // .032
 
     //how much each servo has to move in order to grab
     private final double grabOffset0 = -.15;

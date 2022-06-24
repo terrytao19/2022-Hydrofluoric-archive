@@ -86,11 +86,13 @@ import dashboard.RobotConstants;
             if (counterBottom > counterMid && counterBottom > counterTop){
                 position = BarcodePositionDetector.BarcodePosition.LEFT;
             }
-            if(counterMid > counterTop && counterMid > counterBottom){
+            else if(counterMid > counterTop && counterMid > counterBottom){
                 position = BarcodePositionDetector.BarcodePosition.MIDDLE;
-
             }
-            if (counterTop > counterBottom && counterTop > counterMid){
+            else if (counterTop > counterBottom && counterTop > counterMid){
+                position = BarcodePositionDetector.BarcodePosition.RIGHT;
+            }
+            else {
                 position = BarcodePositionDetector.BarcodePosition.RIGHT;
             }
 

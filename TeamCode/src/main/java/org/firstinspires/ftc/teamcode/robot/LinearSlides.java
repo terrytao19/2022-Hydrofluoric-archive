@@ -20,12 +20,12 @@ public class LinearSlides {
     public static double SLIDE_POWER = -1;
     //Max length
     public static double MAX_LENGTH = RobotConstants.SLIDE_MAX_LENGTH;
-    public double TOP_SLIDE_TICKS = 420-20;
+    public double TOP_SLIDE_TICKS = 420;
     private final double MID_SLIDE_TICKS = 250;
     private final double OUT_A_BIT_SLIDE_TICKS = 100;
     private final double BOTTOM_SLIDE_TICKS = 270;
     private final double SHARED_SLIDE_TICKS = 300;
-    private final double GRAB_SLIDE_TICKS = 15;
+    private final double GRAB_SLIDE_TICKS = 50;
     private final double WIGGLE_DOWN_POWER = 0;
     private final double WIGGLE_UP_POWER = 0;
     private final double WIGGLE_FREQUENCY = 50;
