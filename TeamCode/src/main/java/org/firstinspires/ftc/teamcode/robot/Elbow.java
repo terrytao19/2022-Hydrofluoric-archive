@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 public class Elbow {
-    public Servo e2;
+    public Servo e2;//
     public Servo e3;
 
     private double curE2 = 0;
